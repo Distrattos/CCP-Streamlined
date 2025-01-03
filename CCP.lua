@@ -1864,6 +1864,12 @@ function SlashCmdList.CCP(msg, editbox) -- 4.
 			else
 				CCPFrameMini:Show()
 			end
+		elseif CCPCurrentFrame == 2 then
+			if (CCPFrameUltramini:IsVisible()) then
+				CCPFrameUltramini:Hide()
+			else
+				CCPFrameUltramini:Show()
+			end
 		end
 		SetCmdCheckmark()
 	end
@@ -1882,6 +1888,12 @@ function ShowToggle()
 			CCPFrameMini:Hide()
 		else
 			CCPFrameMini:Show()
+		end
+	elseif CCPCurrentFrame == 2 then
+		if (CCPFrameUltramini:IsVisible()) then
+			CCPFrameUltramini:Hide()
+		else
+			CCPFrameUltramini:Show()
 		end
 	end
 	SetCmdCheckmark()
