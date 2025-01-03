@@ -14,7 +14,7 @@
 			</Anchor>
 		</Anchors>
 		<Frames>
-			<Button name="AtlasButton">
+			<Button name="CCPButton">
 				<Size>
 					<AbsDimension x="24" y="24" />
 				</Size>
